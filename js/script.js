@@ -31,35 +31,42 @@ function generateTurnip() {
 			// regular turnip
 			result_img = "turnip-regular";
 			result_name = "Regular Turnip";
+			incrementValue("num-regular");
 		}
 		else if (turnip_prob >= 35 && turnip_prob < 41) {
 			result_img = "turnip-tired";
 			result_name = "Tired Turnip";
+			incrementValue("num-tired");
 		}
 		else if (turnip_prob >= 41 && turnip_prob < 46) {
 			result_img = "turnip-sleeping";
 			result_name = "Sleeping Turnip";
+			incrementValue("num-sleeping");
 		}
 		else if (turnip_prob >= 46 && turnip_prob < 49) {
 			result_img = "turnip-shocked";
 			result_name = "Shocked Turnip";
+			incrementValue("num-shocked");
 		}
 		else if (turnip_prob >= 49 && turnip_prob < 52) {
 			result_img = "turnip-laughing";
 			result_name = "Laughing Turnip";
+			incrementValue("num-laughing");
 		}
 		else if (turnip_prob >= 52 && turnip_prob < 56) {
 			result_img = "turnip-winking";
 			result_name = "Winking Turnip";
+			incrementValue("num-winking");
 		}
 		else if (turnip_prob == 56) {
 			result_img = "turnip-ditto";
 			result_name = "Ditto Turnip";
+			incrementValue("num-ditto");
 		}
 		else {
 			result_img = "turnip-stitched";
 			result_name = "Stitched Turnip";
-			incrementValue("num-stitches");
+			incrementValue("num-stitched");
 		}
 		incrementValue("total-pulls");
 	}

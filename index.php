@@ -13,15 +13,58 @@
 		<p id="result-statement">You have not pulled!</p>
 	</div>
 	<div id="log">
-		<p>Stitches: <span id="num-stitches">0</span></p>
-		<p>Pigs: <span id="num-pigs">0</span></p>
-		<p>Bombs: <span id="num-bombs">0</span></p>
-		<p>Light Sabers: <span id="num-lightsabers">0</span></p>
-		<b><p>Total Pulls: <span id="total-pulls">0</span></p></b>
+		<table>
+			<tr>
+				<td>Regular:</td>
+				<td id="num-regular">0</td>
+			</tr>
+			<tr>
+				<td>Tired:</td>
+				<td id="num-tired">0</td>
+			</tr>
+			<tr>
+				<td>Sleeping:</td>
+				<td id="num-sleeping">0</td>
+			</tr>
+			<tr>
+				<td>Winking:</td>
+				<td id="num-winking">0</td>
+			</tr>
+			<tr>
+				<td>Shocked:</td>
+				<td id="num-shocked">0</td>
+			</tr>
+			<tr>
+				<td>Laughing:</td>
+				<td id="num-laughing">0</td>
+			</tr>
+			<tr>
+				<td>Ditto:</td>
+				<td id="num-ditto">0</td>
+			</tr>
+			<tr>
+				<td>Stitched:</td>
+				<td id="num-stitched">0</td>
+			</tr>
+			<tr>
+				<td>Pigs:</td>
+				<td id="num-pigs">0</td>
+			</tr>
+			<tr>
+				<td>Bombs:</td>
+				<td id="num-bombs">0</td>
+			</tr>
+			<tr>
+				<td>Light Sabers:</td>
+				<td id="num-lightsabers">0</td>
+			</tr>
+			<tr>
+				<td><b>Total Pulls:</b></td>
+				<b><td id="total-pulls">0</td></b>
+			</tr>
+		</table>
 	</div>
-	<footer>
-		Formula sheet can be found <a href="http://i.imgur.com/FdSCz.png">here</a>
-	</footer>
+	<p>Formula sheet can be found <a href="http://i.imgur.com/FdSCz.png">here</a></p>
 	<script src="js/script.js"></script>
 </body>
 </html>

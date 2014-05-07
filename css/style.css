@@ -10,8 +10,12 @@ body {
 }
 
 #log {
-	width: 300px;
+}
+
+#log table {
+	width: 150px;
 	margin: auto;
+	text-align: left;
 }
 
 button {
