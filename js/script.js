@@ -10,16 +10,19 @@ function generateTurnip() {
 			// pig
 			result_img = "item-pig";
 			result_name = "Pig";
+			incrementValue("num-pigs");
 		}
 		else if (item_prob == 5) {
 			// light saber
 			result_img = "item-lightsaber";
 			result_name = "Light Saber";
+			incrementValue("num-lightsabers");
 		}
 		else {
 			// bomb
 			result_img = "item-bomb";
 			result_name = "Bomb";
+			incrementValue("num-bombs");
 		}
 	}
 	else { // turnip cases
@@ -56,9 +59,19 @@ function generateTurnip() {
 		else {
 			result_img = "turnip-stitched";
 			result_name = "Stitched Turnip";
+			incrementValue("num-stitches");
 		}
+		incrementValue("total-pulls");
 	}
 
 	document.getElementById('result-img').src = "img/" + result_img + ".png";
-	document.getElementById('result-statement').innerText = "You have received " + result_name + " !";
+	document.getElementById('result-statement').innerText = "You have received " + result_name + "!";
+}
+
+function incrementValue(id)
+{
+    var value = parseInt(document.getElementById(id).innerHTML, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById(id).innerHTML = value;
 }
