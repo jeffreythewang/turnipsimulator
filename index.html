@@ -60,7 +60,7 @@
 			</tr>
 			<tr>
 				<td><b>Total Pulls:</b></td>
-				<b><td id="total-pulls">0</td></b>
+				<td id="total-pulls">0</td>
 			</tr>
 		</table>
 	</div>

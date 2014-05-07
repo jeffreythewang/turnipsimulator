@@ -5,19 +5,6 @@ body {
 	text-align: center;
 }
 
-#result {
-	margin-top: 30px;
-}
-
-#log {
-}
-
-#log table {
-	width: 150px;
-	margin: auto;
-	text-align: left;
-}
-
 button {
   padding: 10px;
   background-color: #6c8ad7;
@@ -53,4 +40,21 @@ button:active, button:disabled {
     -webkit-box-shadow: 0px 5px 0px #576fac;
     -moz-box-shadow: 0px 5px 0px #576fac;
     box-shadow: 0px 2.5px 0px #576fac;
+}
+
+#result {
+	margin-top: 30px;
+}
+
+#log {
+}
+
+#log table {
+	width: 150px;
+	margin: auto;
+	text-align: left;
+}
+
+#total-pulls {
+	font-weight: bold;
 }
