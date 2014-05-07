@@ -64,7 +64,7 @@
 			</tr>
 		</table>
 	</div>
-	<p>Formula sheet can be found <a href="http://i.imgur.com/FdSCz.png">here</a></p>
+	<p>Based on data found <a href="http://i.imgur.com/FdSCz.png">here</a>.</p>
 	<script src="js/script.js"></script>
 </body>
 </html>
