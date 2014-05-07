@@ -16,51 +16,51 @@
 		<table>
 			<tr>
 				<td>Regular:</td>
-				<td id="num-regular">0</td>
+				<td class="td-value" id="num-regular">0</td>
 			</tr>
 			<tr>
 				<td>Tired:</td>
-				<td id="num-tired">0</td>
+				<td class="td-value" id="num-tired">0</td>
 			</tr>
 			<tr>
 				<td>Sleeping:</td>
-				<td id="num-sleeping">0</td>
+				<td class="td-value" id="num-sleeping">0</td>
 			</tr>
 			<tr>
 				<td>Winking:</td>
-				<td id="num-winking">0</td>
+				<td class="td-value" id="num-winking">0</td>
 			</tr>
 			<tr>
 				<td>Shocked:</td>
-				<td id="num-shocked">0</td>
+				<td class="td-value" id="num-shocked">0</td>
 			</tr>
 			<tr>
 				<td>Laughing:</td>
-				<td id="num-laughing">0</td>
+				<td class="td-value" id="num-laughing">0</td>
 			</tr>
 			<tr>
 				<td>Ditto:</td>
-				<td id="num-ditto">0</td>
+				<td class="td-value" id="num-ditto">0</td>
 			</tr>
 			<tr>
 				<td>Stitched:</td>
-				<td id="num-stitched">0</td>
+				<td class="td-value" id="num-stitched">0</td>
 			</tr>
 			<tr>
 				<td>Mr. Saturn:</td>
-				<td id="num-pigs">0</td>
+				<td class="td-value" id="num-pigs">0</td>
 			</tr>
 			<tr>
 				<td>Bombs:</td>
-				<td id="num-bombs">0</td>
+				<td class="td-value" id="num-bombs">0</td>
 			</tr>
 			<tr>
 				<td>Light Sabers:</td>
-				<td id="num-lightsabers">0</td>
+				<td class="td-value" id="num-lightsabers">0</td>
 			</tr>
 			<tr>
 				<td><b>Total Pulls:</b></td>
-				<td id="total-pulls">0</td>
+				<td class="td-value" id="total-pulls">0</td>
 			</tr>
 		</table>
 	</div>

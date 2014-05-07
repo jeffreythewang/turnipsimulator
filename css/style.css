@@ -50,9 +50,13 @@ button:active, button:disabled {
 }
 
 #log table {
-	width: 150px;
+	width: 160px;
 	margin: auto;
 	text-align: left;
+}
+
+.td-value {
+	text-align: right;
 }
 
 #total-pulls {
