@@ -9,7 +9,7 @@ function generateTurnip() {
 		if (item_prob < 3) {
 			// pig
 			result_img = "item-pig";
-			result_name = "Pig";
+			result_name = "Mr. Saturn";
 			incrementValue("num-pigs");
 		}
 		else if (item_prob == 5) {

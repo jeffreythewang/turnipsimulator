@@ -62,3 +62,9 @@ button:active, button:disabled {
 #total-pulls {
 	font-weight: bold;
 }
+
+@media (max-width: 900px) {
+	body {
+		width: auto;
+	}
+}
