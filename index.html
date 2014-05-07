@@ -47,7 +47,7 @@
 				<td id="num-stitched">0</td>
 			</tr>
 			<tr>
-				<td>Pigs:</td>
+				<td>Mr. Saturn:</td>
 				<td id="num-pigs">0</td>
 			</tr>
 			<tr>
