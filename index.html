@@ -43,7 +43,7 @@
 				<td class="td-value" id="num-ditto">0</td>
 			</tr>
 			<tr>
-				<td>Stitched:</td>
+				<td>Stitch:</td>
 				<td class="td-value" id="num-stitched">0</td>
 			</tr>
 			<tr>
@@ -51,11 +51,11 @@
 				<td class="td-value" id="num-pigs">0</td>
 			</tr>
 			<tr>
-				<td>Bombs:</td>
+				<td>Bomb:</td>
 				<td class="td-value" id="num-bombs">0</td>
 			</tr>
 			<tr>
-				<td>Light Sabers:</td>
+				<td>Beam Sword:</td>
 				<td class="td-value" id="num-lightsabers">0</td>
 			</tr>
 			<tr>

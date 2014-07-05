@@ -15,7 +15,7 @@ function generateTurnip() {
 		else if (item_prob == 5) {
 			// light saber
 			result_img = "item-lightsaber";
-			result_name = "Light Saber";
+			result_name = "Beam Sword";
 			incrementValue("num-lightsabers");
 		}
 		else {
@@ -30,42 +30,42 @@ function generateTurnip() {
 		if (turnip_prob >= 0 && turnip_prob < 35) {
 			// regular turnip
 			result_img = "turnip-regular";
-			result_name = "Regular Turnip";
+			result_name = "Regular Face";
 			incrementValue("num-regular");
 		}
 		else if (turnip_prob >= 35 && turnip_prob < 41) {
 			result_img = "turnip-tired";
-			result_name = "Tired Turnip";
+			result_name = "Tired Face";
 			incrementValue("num-tired");
 		}
 		else if (turnip_prob >= 41 && turnip_prob < 46) {
 			result_img = "turnip-sleeping";
-			result_name = "Sleeping Turnip";
+			result_name = "Sleeping Face";
 			incrementValue("num-sleeping");
 		}
 		else if (turnip_prob >= 46 && turnip_prob < 49) {
 			result_img = "turnip-shocked";
-			result_name = "Shocked Turnip";
+			result_name = "Shocked Face";
 			incrementValue("num-shocked");
 		}
 		else if (turnip_prob >= 49 && turnip_prob < 52) {
 			result_img = "turnip-laughing";
-			result_name = "Laughing Turnip";
+			result_name = "Laughing Face";
 			incrementValue("num-laughing");
 		}
 		else if (turnip_prob >= 52 && turnip_prob < 56) {
 			result_img = "turnip-winking";
-			result_name = "Winking Turnip";
+			result_name = "Winking Face";
 			incrementValue("num-winking");
 		}
 		else if (turnip_prob == 56) {
 			result_img = "turnip-ditto";
-			result_name = "Ditto Turnip";
+			result_name = "Ditto Face";
 			incrementValue("num-ditto");
 		}
 		else {
 			result_img = "turnip-stitched";
-			result_name = "Stitched Turnip";
+			result_name = "Stitch Face";
 			incrementValue("num-stitched");
 		}
 		incrementValue("total-pulls");
