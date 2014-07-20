@@ -65,7 +65,7 @@
 			</tr>
 		</table>
 	</div>
-	<p>Based on data found <a href="img/data.png">here</a>.</p>
+	<p>Based on data found <a target="_blank" href="img/data.png">here</a>.</p>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/docCookies.js"></script>
 	<script src="js/script.js"></script>
