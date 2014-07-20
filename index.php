@@ -7,7 +7,8 @@
 </head>
 <body>
 	<h1>Peach Turnip Simulator</h1>
-	<button onclick="generateTurnip()">Pull</button>
+	<button class="pull" onclick="generateTurnip()">Pull</button>
+	<button class="reset" onclick="resetCounts()">Reset</button>
 	<div id="result">
 		<img src="img/blank.png" id="result-img">
 		<p id="result-statement">You have not pulled!</p>
@@ -64,7 +65,9 @@
 			</tr>
 		</table>
 	</div>
-	<p>Based on data found <a href="http://i.imgur.com/FdSCz.png">here</a>.</p>
+	<p>Based on data found <a href="img/data.png">here</a>.</p>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/docCookies.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
